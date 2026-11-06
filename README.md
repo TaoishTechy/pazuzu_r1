@@ -4,6 +4,9 @@ Executable verification repository for **Pazuzu 1.0-R1 (HOR-Qudit)**, built
 exactly to the supplied **Validation & Benchmark Suite Blueprint V1.0**
 (`docs/source/Pazuzu_R1_Validation_Benchmark_Suite_Blueprint.md`).
 
+<img width="1122" height="730" alt="image" src="https://github.com/user-attachments/assets/107ea1fc-36da-4f74-9da2-d836eb3690af" />
+
+
 > **Core invariant (blueprint §1).** A claim is RESOLVED only when a named
 > command, executed against named files, produces a logged result that
 > satisfies a pre-declared acceptance criterion. All other claims remain
