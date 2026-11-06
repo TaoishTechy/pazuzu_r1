@@ -1,0 +1,16 @@
+seed-override strict: all randomness derives from seed 13 (deterministic; default 13 when --seed omitted)
+Pazuzu 1.0-R1 λ-flow | mode=pazuzu seed=13 steps=1000 trl=Simulation-Emulated
+trace: logs/lambda_trace.csv  sha256=c59d19c879508459988aa309bb52cfcee8c87c4d3cd8673764e9269af1300e60
+final λ = 1.000000000e-09  (setpoint 0.000000000e+00)
+invariants: finite=True monotone_outside_windows=True ceiling_ok=True floor_ok=True
+trl-labels: attached (mandatory per R1 §6.2 — emitted by default)
+classification-matrix: attached (mandatory per R1 §6.2 — emitted by default)
+snapshot: logs/lambda_summary.json
+seed-override strict: all randomness derives from seed 13 (deterministic; default 13 when --seed omitted)
+Pazuzu 1.0-R1 λ-flow | mode=substrate seed=13 steps=1000 trl=Simulation-Emulated
+trace: logs/lambda_trace_substrate.csv  sha256=6addbd2f9318822dbe015a2aab881c5280776fb73517d5e5e375f05c9a63b236
+final λ = 3.636260113e-01  (setpoint 3.636260113e-01)
+invariants: finite=True monotone_outside_windows=True ceiling_ok=True floor_ok=True
+trl-labels: attached (mandatory per R1 §6.2 — emitted by default)
+classification-matrix: attached (mandatory per R1 §6.2 — emitted by default)
+snapshot: logs/lambda_summary_substrate.json

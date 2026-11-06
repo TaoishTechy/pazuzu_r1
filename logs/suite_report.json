@@ -1,0 +1,611 @@
+{
+  "schema": "pazuzu-r1/suite-report@v1",
+  "timestamp_utc": "2026-11-06T08:07:46+00:00",
+  "git_commit": "b51d647ad16eaed2c22cccbb6756778746341c87",
+  "git_dirty": false,
+  "manifest": {
+    "manifest": "MANIFEST.sha256",
+    "entries": 30,
+    "verified": 30,
+    "mismatches": [],
+    "placeholders": [],
+    "missing": []
+  },
+  "artifact_digests": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "44765af7d4f0c8dbac1ce88e17c21c33fcd1bea2a73b9b37054a7c37faedaa5d"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "65454211ad9e646b17d1dce06d4ef30eba527a481b4777c3f2e2a6c84e5d766a"
+    },
+    {
+      "path": "DECISION.md",
+      "sha256": "86c5d6a9e126985a38b0bc45b52eb763d46aa106850aeb13970950f4d6bf70f4"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "90ec8912a7dc47e7e869fd8b288100e1854c774a414332a89cd3672dc48d224f"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a6c27405e0a5494896a7681e0a0b01e54bf4509764e8ee69b13c95d841bfa962"
+    },
+    {
+      "path": "artifacts/README.md",
+      "sha256": "e7bc2bf53e9b38270d5d739e91769e3505e6c730a02609ff3b0d069c4078fb75"
+    },
+    {
+      "path": "data/README.md",
+      "sha256": "b5916c20ad67491672f0de45435c536f90d7f8ffc04a2cc8bc45829e510de7fa"
+    },
+    {
+      "path": "docs/API_ROADMAP.md",
+      "sha256": "249175e207984e120dcbb317821cc8a18280851170a001ca9aeaaab704155b3f"
+    },
+    {
+      "path": "docs/CLAIMS.md",
+      "sha256": "3c26eaedf099cff3e6045e13f8a0e19a77cd0cf9dc383c37cf34247c81662c44"
+    },
+    {
+      "path": "docs/source/144_Point_Enhancement_Gap_Filling_R1.2.md",
+      "sha256": "e6cf84e4dfbf6cc992c01b3a54aa158ed6306d967eb4295b9a780f48e2cba172"
+    },
+    {
+      "path": "docs/source/Pazuzu_1.0_FULL_Audit_R1.md",
+      "sha256": "c5b3b1fc0f49858a97e21f1d9d5200f2b88dcab6e2393e5e39b89219626ff665"
+    },
+    {
+      "path": "docs/source/Pazuzu_1.0_FULL_Audit_and_Stage5_Proposals.md",
+      "sha256": "bfb31bbeeea4700c12321ba1f31e20d7641e7e4624502314c6d55bd45436d5b2"
+    },
+    {
+      "path": "docs/source/Pazuzu_1.0_R1_HOR-Qudit.md",
+      "sha256": "0f139feeed9b482b3c936c848fce84f57d36a86d4f23cec483b356a7dfd3b31a"
+    },
+    {
+      "path": "docs/source/Pazuzu_R1_Validation_Benchmark_Suite_Blueprint.docx",
+      "sha256": "5e67ce6868db6e84142870faa51e6741095e0099404b50a58018a2a6987e1d8a"
+    },
+    {
+      "path": "docs/source/Pazuzu_R1_Validation_Benchmark_Suite_Blueprint.md",
+      "sha256": "1bd4f22aeda80b503596922531ce10377521de765a87a13f8be9296f23ee18d5"
+    },
+    {
+      "path": "docs/source/README.md",
+      "sha256": "4da66de5db0f680ace6cfbb4ed893e5a1305f992dae90142f3ec241a428c17d5"
+    },
+    {
+      "path": "lean/README.md",
+      "sha256": "cb4392bff601c049f9cdddc4d198b62a58afd9d71b204f7a2220aebe334579b3"
+    },
+    {
+      "path": "logs/lambda_trace.csv",
+      "sha256": "c59d19c879508459988aa309bb52cfcee8c87c4d3cd8673764e9269af1300e60"
+    },
+    {
+      "path": "logs/lambda_trace_substrate.csv",
+      "sha256": "6addbd2f9318822dbe015a2aab881c5280776fb73517d5e5e375f05c9a63b236"
+    },
+    {
+      "path": "logs/pazuzu_run_console.log",
+      "sha256": "a26e1f3f43f9a5dab9e3fc05ce87d24983b993147f7d194c653b6b03c565f1b5"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "6a12e5bc4dda08a92d4c276fe43e5a439e4ca83f0cb176d29c2f2bb3f4eae39c"
+    },
+    {
+      "path": "src/gen_manifest.py",
+      "sha256": "9f61cf2d7599c8af5aa902c4cb72b1703c3317f35cece8576290a070523ae4c2"
+    },
+    {
+      "path": "src/pazuzu_r1.py",
+      "sha256": "4cfec27f4c944683a28293a163bc4cc9d2669c1c793918b93949a8f34dcc88ef"
+    },
+    {
+      "path": "src/stats_tools.py",
+      "sha256": "aa136ffb8571d57c61a8fe8db6fcd87ad385d18cbf3a3d0c0c3b6e4434952e75"
+    },
+    {
+      "path": "src/verify_all.py",
+      "sha256": "b56feb966fd924d3d8f437ce79c764c14e6dbf94d8bf2ac980c1f5a39396a3a7"
+    },
+    {
+      "path": "tests/fixtures/synthetic_p1_forcing_vs_greedy.csv",
+      "sha256": "bb8b89c75c7476d4088a8eba88449b7227074ecb9de3bdd48b3454e864913c82"
+    },
+    {
+      "path": "tests/fixtures/synthetic_p2_h1_detection.json",
+      "sha256": "cfbc59efa223c16a2f8d3d91097fc4577d1a82ff753ae3f62f555747ac47f395"
+    },
+    {
+      "path": "tests/test_pazuzu_r1.py",
+      "sha256": "258152ead7a03311ab1b681adbf2119cdfb944ed181f62caa375c04e1dfe95ef"
+    },
+    {
+      "path": "tests/test_stats_tools.py",
+      "sha256": "1ae7d67234bba104c0e9a5485cc871db3d62eba205f20d587b38589da2c05e7c"
+    },
+    {
+      "path": "tests/test_verify_all.py",
+      "sha256": "4ecced6e4fe6b81363922b697e32003e7202cd4796bf3565e7d0f4aa120429dd"
+    }
+  ],
+  "lambda": {
+    "seed": 13,
+    "steps": 1000,
+    "modes": {
+      "pazuzu": {
+        "rows": 1000,
+        "all_finite": true,
+        "monotone_nonincreasing_outside_windows": true,
+        "ceiling_respected": true,
+        "floor_respected": null,
+        "lambda_final": 1e-09,
+        "lambda_min": 1e-09,
+        "lambda_max": 0.5
+      },
+      "substrate": {
+        "rows": 1000,
+        "all_finite": true,
+        "monotone_nonincreasing_outside_windows": true,
+        "ceiling_respected": true,
+        "floor_respected": true,
+        "lambda_final": 0.3636260113,
+        "lambda_min": 0.3636260113,
+        "lambda_max": 0.5
+      }
+    },
+    "deterministic": true
+  },
+  "p1": {
+    "status": "OPEN",
+    "detail": {
+      "reason": "raw evidence CSV absent (external HOR-Qudit artifact forcing_greedy_vs_generic_seed13.csv not supplied)",
+      "expected_path": "data/p1_forcing_vs_greedy.csv",
+      "required_schema": "columns: pair_id,seed,forcing,greedy (one row per pair; reported n must match rows)",
+      "acceptance": "forcing 50/50 dense sets; greedy 47.2\u00b11.8; paired p < 0.001 (substrate-specific)",
+      "tool_status": "recompute implemented in src/stats_tools.py and tested on tests/fixtures/synthetic_p1_forcing_vs_greedy.csv (synthetic fixture \u2014 code test only, NOT evidence)"
+    }
+  },
+  "p2": {
+    "status": "OPEN",
+    "detail": {
+      "reason": "raw evidence JSON absent (external HOR-Qudit artifact topos_h1_detection_seed17.json not supplied)",
+      "expected_path": "data/topos_h1_detection.json",
+      "required_schema": "{\"samples\": [{\"sample_id\": int, \"has_logical_error\": bool, \"h1_nonzero\": bool}, ...]}",
+      "acceptance": "all logical errors detected; false-positive rate stated (supplied set: 3/64 no-error samples with H\u00b9\u22600 \u2192 4.7 % FP rate, must be reported as such)",
+      "tool_status": "recompute implemented here and tested on tests/fixtures/synthetic_p2_h1_detection.json (synthetic fixture \u2014 code test only, NOT evidence)"
+    }
+  },
+  "lean": {
+    "status": "OPEN",
+    "detail": {
+      "reason": "lean/SophiaConvergence.lean absent \u2014 claim remains OPEN",
+      "acceptance": "complete file builds via 'lake build lean/SophiaConvergence.lean'; theorem must state \u03bb_min > 0 and N_steps \u2264 6127 for \u03b5_tol = 10\u207b\u00b9\u2070; a truncated file does not satisfy this criterion; arithmetic verification of a subtraction is not accepted as a convergence proof"
+    }
+  },
+  "lambda_decision": {
+    "status": "RESOLVED",
+    "detail": {
+      "decision_line": "## Decision: Option C \u2014 mode split",
+      "chosen": [
+        "C"
+      ],
+      "mode_split_language_present": true,
+      "reference": "DECISION.md"
+    }
+  },
+  "substrate_floor_arithmetic": {
+    "status": "RESOLVED",
+    "detail": {
+      "phi": 1.618033988749895,
+      "phi^-2": 0.38196601125010515,
+      "delta_forcing": 0.017,
+      "delta_topos": 0.00134,
+      "computed": 0.36362601125010513,
+      "spec_value": 0.36362601125,
+      "abs_difference": 1.0513812043200232e-13,
+      "matches": true,
+      "scope": "arithmetic identity verified in float64; this is NOT a proof that \u03bb_min bounds the dynamical system (see C11b)"
+    }
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "title": "MANIFEST.sha256 integrity (full SHA-256, no placeholders)",
+      "status": "RESOLVED",
+      "criterion": "every manifest entry recomputes to the claimed full 64-hex digest; no placeholder pattern; manifest has entries",
+      "detail": {
+        "manifest": "MANIFEST.sha256",
+        "entries": 30,
+        "verified": 30,
+        "mismatches": [],
+        "placeholders": [],
+        "missing": [],
+        "full_digests": [
+          {
+            "path": ".github/workflows/ci.yml",
+            "sha256": "44765af7d4f0c8dbac1ce88e17c21c33fcd1bea2a73b9b37054a7c37faedaa5d"
+          },
+          {
+            "path": ".gitignore",
+            "sha256": "65454211ad9e646b17d1dce06d4ef30eba527a481b4777c3f2e2a6c84e5d766a"
+          },
+          {
+            "path": "DECISION.md",
+            "sha256": "86c5d6a9e126985a38b0bc45b52eb763d46aa106850aeb13970950f4d6bf70f4"
+          },
+          {
+            "path": "LICENSE",
+            "sha256": "90ec8912a7dc47e7e869fd8b288100e1854c774a414332a89cd3672dc48d224f"
+          },
+          {
+            "path": "README.md",
+            "sha256": "a6c27405e0a5494896a7681e0a0b01e54bf4509764e8ee69b13c95d841bfa962"
+          },
+          {
+            "path": "artifacts/README.md",
+            "sha256": "e7bc2bf53e9b38270d5d739e91769e3505e6c730a02609ff3b0d069c4078fb75"
+          },
+          {
+            "path": "data/README.md",
+            "sha256": "b5916c20ad67491672f0de45435c536f90d7f8ffc04a2cc8bc45829e510de7fa"
+          },
+          {
+            "path": "docs/API_ROADMAP.md",
+            "sha256": "249175e207984e120dcbb317821cc8a18280851170a001ca9aeaaab704155b3f"
+          },
+          {
+            "path": "docs/CLAIMS.md",
+            "sha256": "3c26eaedf099cff3e6045e13f8a0e19a77cd0cf9dc383c37cf34247c81662c44"
+          },
+          {
+            "path": "docs/source/144_Point_Enhancement_Gap_Filling_R1.2.md",
+            "sha256": "e6cf84e4dfbf6cc992c01b3a54aa158ed6306d967eb4295b9a780f48e2cba172"
+          },
+          {
+            "path": "docs/source/Pazuzu_1.0_FULL_Audit_R1.md",
+            "sha256": "c5b3b1fc0f49858a97e21f1d9d5200f2b88dcab6e2393e5e39b89219626ff665"
+          },
+          {
+            "path": "docs/source/Pazuzu_1.0_FULL_Audit_and_Stage5_Proposals.md",
+            "sha256": "bfb31bbeeea4700c12321ba1f31e20d7641e7e4624502314c6d55bd45436d5b2"
+          },
+          {
+            "path": "docs/source/Pazuzu_1.0_R1_HOR-Qudit.md",
+            "sha256": "0f139feeed9b482b3c936c848fce84f57d36a86d4f23cec483b356a7dfd3b31a"
+          },
+          {
+            "path": "docs/source/Pazuzu_R1_Validation_Benchmark_Suite_Blueprint.docx",
+            "sha256": "5e67ce6868db6e84142870faa51e6741095e0099404b50a58018a2a6987e1d8a"
+          },
+          {
+            "path": "docs/source/Pazuzu_R1_Validation_Benchmark_Suite_Blueprint.md",
+            "sha256": "1bd4f22aeda80b503596922531ce10377521de765a87a13f8be9296f23ee18d5"
+          },
+          {
+            "path": "docs/source/README.md",
+            "sha256": "4da66de5db0f680ace6cfbb4ed893e5a1305f992dae90142f3ec241a428c17d5"
+          },
+          {
+            "path": "lean/README.md",
+            "sha256": "cb4392bff601c049f9cdddc4d198b62a58afd9d71b204f7a2220aebe334579b3"
+          },
+          {
+            "path": "logs/lambda_trace.csv",
+            "sha256": "c59d19c879508459988aa309bb52cfcee8c87c4d3cd8673764e9269af1300e60"
+          },
+          {
+            "path": "logs/lambda_trace_substrate.csv",
+            "sha256": "6addbd2f9318822dbe015a2aab881c5280776fb73517d5e5e375f05c9a63b236"
+          },
+          {
+            "path": "logs/pazuzu_run_console.log",
+            "sha256": "a26e1f3f43f9a5dab9e3fc05ce87d24983b993147f7d194c653b6b03c565f1b5"
+          },
+          {
+            "path": "requirements.txt",
+            "sha256": "6a12e5bc4dda08a92d4c276fe43e5a439e4ca83f0cb176d29c2f2bb3f4eae39c"
+          },
+          {
+            "path": "src/gen_manifest.py",
+            "sha256": "9f61cf2d7599c8af5aa902c4cb72b1703c3317f35cece8576290a070523ae4c2"
+          },
+          {
+            "path": "src/pazuzu_r1.py",
+            "sha256": "4cfec27f4c944683a28293a163bc4cc9d2669c1c793918b93949a8f34dcc88ef"
+          },
+          {
+            "path": "src/stats_tools.py",
+            "sha256": "aa136ffb8571d57c61a8fe8db6fcd87ad385d18cbf3a3d0c0c3b6e4434952e75"
+          },
+          {
+            "path": "src/verify_all.py",
+            "sha256": "b56feb966fd924d3d8f437ce79c764c14e6dbf94d8bf2ac980c1f5a39396a3a7"
+          },
+          {
+            "path": "tests/fixtures/synthetic_p1_forcing_vs_greedy.csv",
+            "sha256": "bb8b89c75c7476d4088a8eba88449b7227074ecb9de3bdd48b3454e864913c82"
+          },
+          {
+            "path": "tests/fixtures/synthetic_p2_h1_detection.json",
+            "sha256": "cfbc59efa223c16a2f8d3d91097fc4577d1a82ff753ae3f62f555747ac47f395"
+          },
+          {
+            "path": "tests/test_pazuzu_r1.py",
+            "sha256": "258152ead7a03311ab1b681adbf2119cdfb944ed181f62caa375c04e1dfe95ef"
+          },
+          {
+            "path": "tests/test_stats_tools.py",
+            "sha256": "1ae7d67234bba104c0e9a5485cc871db3d62eba205f20d587b38589da2c05e7c"
+          },
+          {
+            "path": "tests/test_verify_all.py",
+            "sha256": "4ecced6e4fe6b81363922b697e32003e7202cd4796bf3565e7d0f4aa120429dd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C01e",
+      "title": "14 HOR-Qudit v2.5 artifacts present with verified hashes",
+      "status": "OPEN",
+      "criterion": "14 real files in artifacts/ hash-verified with full SHA-256 (blueprint \u00a74.1)",
+      "detail": {
+        "expected_total": 14,
+        "known_named": 6,
+        "present_on_disk": 0,
+        "note": "Full manifest is 'per HOR-Qudit v2.5 \u00a71.1', which was not supplied; only these 6 named artifacts are known to this repo. All spec-supplied hash prefixes fail placeholder checks and are rejected as evidence (blueprint \u00a74.1). Drop the real files into artifacts/, extend MANIFEST.sha256 via src/gen_manifest.py, and rerun to move C01e/C06/C07/C10.",
+        "artifacts": [
+          {
+            "artifact": "run_420M_v22.py",
+            "role": "main simulation",
+            "spec_supplied_hash_prefix": "a3f8c2d1\u2026f0a1",
+            "prefix_rejected_as_placeholder": true,
+            "present_on_disk": false
+          },
+          {
+            "artifact": "me_049_072_forcing.py",
+            "role": "forcing module / P1",
+            "spec_supplied_hash_prefix": "b7d4e1f2\u2026b8c9",
+            "prefix_rejected_as_placeholder": true,
+            "present_on_disk": false
+          },
+          {
+            "artifact": "sophia_convergence_v24.ipynb",
+            "role": "Sophia convergence",
+            "spec_supplied_hash_prefix": "d1b8a4c2\u2026a0b1",
+            "prefix_rejected_as_placeholder": true,
+            "present_on_disk": false
+          },
+          {
+            "artifact": "forcing_greedy_vs_generic_seed13.csv",
+            "role": "P1 evidence",
+            "spec_supplied_hash_prefix": "a2c4e6b8\u2026f0a2",
+            "prefix_rejected_as_placeholder": true,
+            "present_on_disk": false
+          },
+          {
+            "artifact": "topos_h1_detection_seed17.json",
+            "role": "P2 evidence",
+            "spec_supplied_hash_prefix": "b5d7f9a1\u2026e3b5",
+            "prefix_rejected_as_placeholder": true,
+            "present_on_disk": false
+          },
+          {
+            "artifact": "sophia_trace_seed3.csv",
+            "role": "6,127-step trace",
+            "spec_supplied_hash_prefix": "e9a1c7b8\u2026f2a4",
+            "prefix_rejected_as_placeholder": true,
+            "present_on_disk": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "C02",
+      "title": "\u03bb-trace determinism (fresh run \u2261 committed trace, both modes)",
+      "status": "RESOLVED",
+      "criterion": "pazuzu_r1.py --seed 13 --steps 1000 reproduces logs/lambda_trace.csv and logs/lambda_trace_substrate.csv byte-for-byte",
+      "detail": {
+        "pazuzu": {
+          "returncode": 0,
+          "fresh_sha256": "c59d19c879508459988aa309bb52cfcee8c87c4d3cd8673764e9269af1300e60",
+          "canonical_exists": true,
+          "canonical_sha256": "c59d19c879508459988aa309bb52cfcee8c87c4d3cd8673764e9269af1300e60",
+          "byte_identical": true
+        },
+        "substrate": {
+          "returncode": 0,
+          "fresh_sha256": "6addbd2f9318822dbe015a2aab881c5280776fb73517d5e5e375f05c9a63b236",
+          "canonical_exists": true,
+          "canonical_sha256": "6addbd2f9318822dbe015a2aab881c5280776fb73517d5e5e375f05c9a63b236",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "id": "C03",
+      "title": "\u03bb finite at every step (no NaN/Inf)",
+      "status": "RESOLVED",
+      "criterion": "all \u03bb values in both canonical traces are finite (blueprint \u00a74.2)",
+      "detail": {
+        "pazuzu": true,
+        "substrate": true
+      }
+    },
+    {
+      "id": "C04",
+      "title": "spectral-flow constraint: \u03bb non-increasing outside licensed windows",
+      "status": "RESOLVED",
+      "criterion": "\u03bb[t+1] \u2264 \u03bb[t] whenever step t+1 is not an exploration window, in both modes (blueprint \u00a74.2; R1 \u00a73.1)",
+      "detail": {
+        "pazuzu": true,
+        "substrate": true
+      }
+    },
+    {
+      "id": "C05",
+      "title": "final \u03bb recorded with TRL label Simulation-Emulated",
+      "status": "RESOLVED",
+      "criterion": "logs/lambda_summary*.json record final_lambda.trl = Simulation-Emulated (blueprint \u00a74.2 criterion 4)",
+      "detail": {
+        "lambda_summary.json": {
+          "present": true,
+          "trl_complete": true,
+          "classification_present": true,
+          "classification_matrix_entries": 14,
+          "decision_ref": "DECISION.md \u2014 Option C (mode split)"
+        },
+        "lambda_summary_substrate.json": {
+          "present": true,
+          "trl_complete": true,
+          "classification_present": true,
+          "classification_matrix_entries": 14,
+          "decision_ref": "DECISION.md \u2014 Option C (mode split)"
+        }
+      }
+    },
+    {
+      "id": "C06",
+      "title": "P1: forcing beats greedy on dense sets (paired)",
+      "status": "OPEN",
+      "criterion": "recompute from data/p1_forcing_vs_greedy.csv: forcing 50/50; greedy 47.2\u00b11.8; paired p < 0.001; n consistent; substrate-specific scope",
+      "detail": {
+        "reason": "raw evidence CSV absent (external HOR-Qudit artifact forcing_greedy_vs_generic_seed13.csv not supplied)",
+        "expected_path": "data/p1_forcing_vs_greedy.csv",
+        "required_schema": "columns: pair_id,seed,forcing,greedy (one row per pair; reported n must match rows)",
+        "acceptance": "forcing 50/50 dense sets; greedy 47.2\u00b11.8; paired p < 0.001 (substrate-specific)",
+        "tool_status": "recompute implemented in src/stats_tools.py and tested on tests/fixtures/synthetic_p1_forcing_vs_greedy.csv (synthetic fixture \u2014 code test only, NOT evidence)"
+      }
+    },
+    {
+      "id": "C07",
+      "title": "P2: H\u00b9 detection with stated false-positive rate",
+      "status": "OPEN",
+      "criterion": "recompute from data/topos_h1_detection.json; all logical errors detected; FP rate reported (3/64 = 4.7 % on supplied set); validation bounded or claim restricted",
+      "detail": {
+        "reason": "raw evidence JSON absent (external HOR-Qudit artifact topos_h1_detection_seed17.json not supplied)",
+        "expected_path": "data/topos_h1_detection.json",
+        "required_schema": "{\"samples\": [{\"sample_id\": int, \"has_logical_error\": bool, \"h1_nonzero\": bool}, ...]}",
+        "acceptance": "all logical errors detected; false-positive rate stated (supplied set: 3/64 no-error samples with H\u00b9\u22600 \u2192 4.7 % FP rate, must be reported as such)",
+        "tool_status": "recompute implemented here and tested on tests/fixtures/synthetic_p2_h1_detection.json (synthetic fixture \u2014 code test only, NOT evidence)"
+      }
+    },
+    {
+      "id": "C08",
+      "title": "Lean 4 Sophia convergence proof builds",
+      "status": "OPEN",
+      "criterion": "lean/SophiaConvergence.lean exists, is complete, and 'lake build' succeeds with \u03bb_min > 0, N_steps \u2264 6127 (blueprint \u00a74.4)",
+      "detail": {
+        "reason": "lean/SophiaConvergence.lean absent \u2014 claim remains OPEN",
+        "acceptance": "complete file builds via 'lake build lean/SophiaConvergence.lean'; theorem must state \u03bb_min > 0 and N_steps \u2264 6127 for \u03b5_tol = 10\u207b\u00b9\u2070; a truncated file does not satisfy this criterion; arithmetic verification of a subtraction is not accepted as a convergence proof"
+      }
+    },
+    {
+      "id": "C09",
+      "title": "\u03bb(T)=0 vs \u03bb_min contradiction decided",
+      "status": "RESOLVED",
+      "criterion": "DECISION.md records exactly one option with mode-split semantics (blueprint \u00a74.3)",
+      "detail": {
+        "decision_line": "## Decision: Option C \u2014 mode split",
+        "chosen": [
+          "C"
+        ],
+        "mode_split_language_present": true,
+        "reference": "DECISION.md"
+      }
+    },
+    {
+      "id": "C10",
+      "title": "Sophia 6,127-step monotone trace verified",
+      "status": "OPEN",
+      "criterion": "artifacts/sophia_trace_seed3.csv present; monotone distance decrease; step 6127 distance 9.87\u00d710\u207b\u00b9\u00b9 \u2264 10\u207b\u00b9\u2070",
+      "detail": {
+        "present": false
+      }
+    },
+    {
+      "id": "C11",
+      "title": "substrate floor arithmetic identity \u03c6\u207b\u00b2\u2212\u03b4_forcing\u2212\u03b4_topos",
+      "status": "RESOLVED",
+      "criterion": "float64 recomputation matches 0.36362601125 within 1e-11; counts as arithmetic ONLY (blueprint \u00a72 'status inflation' row)",
+      "detail": {
+        "phi": 1.618033988749895,
+        "phi^-2": 0.38196601125010515,
+        "delta_forcing": 0.017,
+        "delta_topos": 0.00134,
+        "computed": 0.36362601125010513,
+        "spec_value": 0.36362601125,
+        "abs_difference": 1.0513812043200232e-13,
+        "matches": true,
+        "scope": "arithmetic identity verified in float64; this is NOT a proof that \u03bb_min bounds the dynamical system (see C11b)"
+      }
+    },
+    {
+      "id": "C11b",
+      "title": "\u03bb_min is a proven lower bound of the \u03bb-flow dynamics",
+      "status": "OPEN",
+      "criterion": "requires a complete Lean proof (see C08) or an empirical demonstration on the substrate; arithmetic identity is not accepted",
+      "detail": {
+        "reason": "no proof supplied; DECISION.md Option C treats the floor as an enforced control band, not a proven bound"
+      }
+    },
+    {
+      "id": "C12",
+      "title": "parity-flip ledger audit (replayable, hash-chained)",
+      "status": "OPEN",
+      "criterion": "flip events recorded with before/after ledger consistency per R1 \u00a76.1 rule 3; requires substrate deployment artifacts not in scope",
+      "detail": {
+        "reason": "no parity-flip events exist in this suite's scope yet"
+      }
+    },
+    {
+      "id": "C13",
+      "title": "every quantitative metric carries a TRL label",
+      "status": "RESOLVED",
+      "criterion": "setpoint, final \u03bb, and gains blocks all labeled Simulation-Emulated (R1 \u00a76.2 rule 1)",
+      "detail": {
+        "lambda_summary.json": {
+          "present": true,
+          "trl_complete": true,
+          "classification_present": true,
+          "classification_matrix_entries": 14,
+          "decision_ref": "DECISION.md \u2014 Option C (mode split)"
+        },
+        "lambda_summary_substrate.json": {
+          "present": true,
+          "trl_complete": true,
+          "classification_present": true,
+          "classification_matrix_entries": 14,
+          "decision_ref": "DECISION.md \u2014 Option C (mode split)"
+        }
+      }
+    },
+    {
+      "id": "C14",
+      "title": "every parameter carries a classification label",
+      "status": "RESOLVED",
+      "criterion": "classification matrix (Derived / Topologically Forced / Design Choice / Empirical Fit) present and covering all tunables (R1 \u00a76.2 rule 2)",
+      "detail": {
+        "lambda_summary.json": 14,
+        "lambda_summary_substrate.json": 14
+      }
+    }
+  ],
+  "claims_open": [
+    "C01e",
+    "C06",
+    "C07",
+    "C08",
+    "C10",
+    "C11b",
+    "C12"
+  ],
+  "claims_failed": [],
+  "exit_code": 0,
+  "exit_semantics": "0 = every RESOLVED-declared claim passed its runtime check; 1 = at least one failed; OPEN/PARTIAL claims do not affect the exit code"
+}

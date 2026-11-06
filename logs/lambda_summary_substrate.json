@@ -1,0 +1,84 @@
+{
+  "schema": "pazuzu-r1/lambda-summary@v1",
+  "run_id": "substrate-seed13-steps1000-start1",
+  "timestamp_utc": "2026-11-06T08:06:37+00:00",
+  "decision_ref": "DECISION.md \u2014 Option C (mode split)",
+  "mode": "substrate",
+  "seed": 13,
+  "steps": 1000,
+  "start_lambda": 1.0,
+  "seed_override": "strict",
+  "trace_csv_sha256": "6addbd2f9318822dbe015a2aab881c5280776fb73517d5e5e375f05c9a63b236",
+  "setpoint": {
+    "value": 0.36362601125010513,
+    "trl": "Simulation-Emulated",
+    "classification": "Empirical Fit (arithmetic identity \u03c6\u207b\u00b2\u2212\u03b4_forcing\u2212\u03b4_topos; lower-bound status OPEN)"
+  },
+  "gains": {
+    "Kp": 0.6180339887498948,
+    "Ki": 0.23606797749978967,
+    "Kd": 0.38196601125010515,
+    "alpha": 0.05,
+    "beta": 0.02,
+    "eta_sigma": 0.01,
+    "i_clamp": 0.5,
+    "i_leak": 0.01,
+    "trl": "Simulation-Emulated",
+    "classification": "see classification_matrix"
+  },
+  "final_lambda": {
+    "value": 0.36362601125010513,
+    "trl": "Simulation-Emulated",
+    "classification": "Empirical Fit"
+  },
+  "invariants": {
+    "all_finite": true,
+    "monotone_nonincreasing_outside_windows": true,
+    "ceiling_respected": true,
+    "floor_respected": true,
+    "rows": 1000,
+    "lambda_min": 0.36362601125010513,
+    "lambda_max": 0.5,
+    "final_error": 0.0,
+    "band": 0.05,
+    "band_occupancy": 0.996,
+    "first_entry_step": 4,
+    "exploration_window_count": 100,
+    "clamp_spectral_count": 23,
+    "clamp_ceiling_count": 1,
+    "clamp_floor_count": 970
+  },
+  "constraints": {
+    "lambda_ceiling": 0.5,
+    "lambda_floor_pazuzu": 1e-09,
+    "lambda_floor_substrate": 0.36362601125010513,
+    "lambda_floor_applied": 0.36362601125010513,
+    "i_clamp": 0.5,
+    "exploration_period": 100,
+    "exploration_length": 10
+  },
+  "trl_labels_requested": true,
+  "classification_matrix_requested": true,
+  "classification_matrix": {
+    "Kp": "Derived (\u03c6\u207b\u00b9, HOR-Qudit ME-170)",
+    "Ki": "Derived (\u03c6\u207b\u00b3, HOR-Qudit ME-170)",
+    "Kd": "Derived (\u03c6\u207b\u00b2, HOR-Qudit ME-170)",
+    "alpha": "Design Choice",
+    "beta": "Design Choice",
+    "eta_sigma": "Design Choice (audit #21: distribution specified, value not fitted)",
+    "i_clamp": "Design Choice",
+    "i_leak": "Design Choice",
+    "lambda_ceiling": "Design Choice (audit #101)",
+    "lambda_floor": "Derived (R1 audit #19: \u03bb_floor = 10\u207b\u2079)",
+    "setpoint_pazuzu": "Derived (\u03bb(T)=0 control target, Pazuzu-only mode)",
+    "setpoint_substrate": "Empirical Fit (arithmetic identity \u03c6\u207b\u00b2\u2212\u03b4_forcing\u2212\u03b4_topos; lower-bound status OPEN)",
+    "exploration_windows": "Design Choice",
+    "trl_label": "Definition (HOR-Qudit v2.5 TRL table)"
+  },
+  "notes": [
+    "Simulation-emulated result; TRL label Simulation-Emulated per HOR-Qudit v2.5. No hardware measurement is claimed or implied.",
+    "Substrate floor is an arithmetic identity (\u03c6\u207b\u00b2 \u2212 0.017 \u2212 0.00134 = 0.36362601125); it is not a proven dynamical lower bound (docs/CLAIMS.md C11).",
+    "\u03b7 is zero-mean white Gaussian with \u03c3 = 0.01 (audit item 21).",
+    "\u03ba_\u03c6 = 1/\u03c6 is not used as a health scalar (R1.2 acceptance row '\u03ba_\u03c6 separation')."
+  ]
+}
