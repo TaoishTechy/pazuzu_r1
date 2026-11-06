@@ -1,0 +1,341 @@
+{
+  "description": "SYNTHETIC fixture for code tests only \u2014 not evidence",
+  "note": "Mimics the structure described in the blueprint: 3 detected logical errors; 3/64 no-error samples with H1 != 0 (4.7% FP).",
+  "samples": [
+    {
+      "sample_id": 1,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 2,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 3,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 4,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 5,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 6,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 7,
+      "has_logical_error": false,
+      "h1_nonzero": true
+    },
+    {
+      "sample_id": 8,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 9,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 10,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 11,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 12,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 13,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 14,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 15,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 16,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 17,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 18,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 19,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 20,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 21,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 22,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 23,
+      "has_logical_error": false,
+      "h1_nonzero": true
+    },
+    {
+      "sample_id": 24,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 25,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 26,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 27,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 28,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 29,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 30,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 31,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 32,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 33,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 34,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 35,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 36,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 37,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 38,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 39,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 40,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 41,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 42,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 43,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 44,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 45,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 46,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 47,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 48,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 49,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 50,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 51,
+      "has_logical_error": false,
+      "h1_nonzero": true
+    },
+    {
+      "sample_id": 52,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 53,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 54,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 55,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 56,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 57,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 58,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 59,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 60,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 61,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 62,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 63,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 64,
+      "has_logical_error": false,
+      "h1_nonzero": false
+    },
+    {
+      "sample_id": 65,
+      "has_logical_error": true,
+      "h1_nonzero": true
+    },
+    {
+      "sample_id": 66,
+      "has_logical_error": true,
+      "h1_nonzero": true
+    },
+    {
+      "sample_id": 67,
+      "has_logical_error": true,
+      "h1_nonzero": true
+    }
+  ]
+}
