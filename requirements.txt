@@ -1,0 +1,8 @@
+# Pazuzu 1.0-R1 verification suite — standard library only.
+# No third-party runtime dependencies (blueprint §8 reproducibility goal;
+# audit items 62/63). Tested on CPython 3.10-3.12.
+#
+# Optional development tooling (not required by src/ or tests/):
+#   pytest            # if you prefer pytest over stdlib unittest
+#   elan / lake       # Lean 4 toolchain — only needed if/when
+#                     # lean/SophiaConvergence.lean is supplied (claim C08)

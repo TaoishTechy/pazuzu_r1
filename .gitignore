@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# OS
+.DS_Store
+
+# NOTE: logs/ is intentionally NOT ignored — the committed run logs are
+# required deliverables (blueprint §3.1/§8). Volatile reports
+# (logs/suite_report.json, logs/verify_run.log, logs/lambda_summary*.json)
+# are excluded from MANIFEST.sha256 by src/gen_manifest.py instead.
